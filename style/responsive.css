@@ -1,0 +1,79 @@
+/* Laptop device */
+@media screen and (max-width :1200px) {
+   .banner-content h1 {
+      font-size: 48px;
+   }
+
+   .service-card {
+      padding: 80px 20px;
+      border-radius: 30px;
+   }
+   .story-image img{
+height: 100%;
+object-fit: cover;
+border-radius: 30px;
+   }
+}
+
+/* Tablet device */
+@media screen and (max-width :1024px) {
+   #banner {
+      flex-direction: column-reverse;
+      align-items: center;
+   }
+
+   .banner-content {
+      width: 100%;
+        text-align: center;
+   }
+
+   .banner-image {
+      width: 100%;
+   }
+
+   #service-card-container {
+      flex-direction: column;
+   }
+
+   .service-card {
+      max-width: 100%;
+   }
+   .story-card{
+      flex-direction: column;
+   }
+   .story-content{
+   width: 100%;
+ }
+ .story-image{
+   width: 100%;
+ }
+ .story-content p{
+   text-align: center;
+ }
+}
+
+/* Mobile device lowcheck=425*/
+@media screen and (max-width :640px) {
+   .banner-content{
+      text-align: center;
+   }
+   .btn{
+      padding: 12px 20px;
+   }
+   .btn-white{
+      padding: 12px 20px;
+   }
+   .banner-content h1 {
+      font-size: 36px;
+   }
+
+   .heading-contrnt h2 {
+      font-size: 32px;
+   }
+   #country-card-container {
+   flex-direction: column;
+   }
+   #country-card-container h2 {
+    text-align: center;
+ }
+ }
