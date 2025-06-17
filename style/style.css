@@ -3,6 +3,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    /* border-radius: 16px; */
+
  }
 
  body {
@@ -103,7 +105,8 @@
  #story,
  #country,
  #reviews,
- #review-part-two {
+ #review-part-two,
+ #footer-writing-part {
     width: 87.5%;
     margin: 0px auto 120px auto;
  }
@@ -151,15 +154,19 @@
  .story-content img {
     margin-bottom: 30px;
  }
- .story-content{
-   width: 60%;
+
+ .story-content {
+    width: 60%;
  }
- .story-image{
-   width: 40%;
+
+ .story-image {
+    width: 40%;
  }
-.story-content img {
-   width: 100px;
-}
+
+ .story-content img {
+    width: 100px;
+ }
+
  #country-card-container {
     display: flex;
     gap: 30px;
@@ -172,55 +179,87 @@
     padding: 40px;
     border-radius: 30px;
  }
-#reviews-one{
-   background-color: #FFFFFF;
-   border-radius: 16px;
 
-}
- #heading-reviews h4{
-   color: #F411CF;
+ #reviews-one {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+
+ }
+
+ #heading-reviews h4 {
+    color: #F411CF;
     letter-spacing: 4px;
     text-align: center;
     padding-bottom: 5px;
     padding-top: 15px;
-   
+
  }
- #heading-reviews h1{
+
+ #heading-reviews h1 {
     text-align: center;
     margin-bottom: 30px;
-   
- }
-
- #name-one{
-   display:flex;
-   justify-content: space-between;
-   margin-top: 20px;
-   padding-left: 20px;
-   padding-bottom: 20px;
 
  }
- #writing-one{
-   padding: 15px;
-   margin-bottom: 40px;
- }
- .designation{
-   padding-left: 400px;
-   text-align:center ;
- }
- #review-part-two{
-   background-color: #FFFFFF;
-   border-radius: 16px;
-   padding: 15px;
- }
-  #name-two{
-   display:flex;
-   justify-content: space-between;
-   margin-top: 20px;
-   padding-left: 20px;
-   padding-bottom: 20px;
+
+ #name-one {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
 
  }
- .designation-two{
-   padding-left: 400px;
-   text-align:center ;
+
+ #writing-one {
+    padding: 15px;
+    margin-bottom: 40px;
+ }
+
+ .designation {
+    padding-left: 400px;
+    text-align: center;
+ }
+
+ #review-part-two {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 15px;
+ }
+
+ #name-two {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+ }
+
+ .designation-two {
+    padding-left: 400px;
+    text-align: center;
+ }
+
+ #footer-part {
+    background-color: #FFFFFF;
+
+ }
+
+ #footer-writing-part {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+
+ }
+
+ .fb {
+    width: 30px;
+ }
+
+ .insta {
+    width: 35px;
+ }
+
+ .yt {
+    width: 33px;
  }

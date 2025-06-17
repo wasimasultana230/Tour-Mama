@@ -8,10 +8,11 @@
       padding: 80px 20px;
       border-radius: 30px;
    }
-   .story-image img{
-height: 100%;
-object-fit: cover;
-border-radius: 30px;
+
+   .story-image img {
+      height: 100%;
+      object-fit: cover;
+      border-radius: 30px;
    }
 }
 
@@ -24,7 +25,7 @@ border-radius: 30px;
 
    .banner-content {
       width: 100%;
-        text-align: center;
+      text-align: center;
    }
 
    .banner-image {
@@ -38,53 +39,72 @@ border-radius: 30px;
    .service-card {
       max-width: 100%;
    }
-   .story-card{
+
+   .story-card {
       flex-direction: column;
    }
-   .story-content{
-   width: 100%;
- }
- .story-image{
-   width: 100%;
- }
- .story-content p{
-   text-align: center;
- }
-  #name-one{
-   flex-direction: column;
-   align-items: center;  
- }
- .img{
-   width: 50%;
- }
-.designation{
-   padding-left:0px;
-   padding-bottom: 20px;
- }
-   #name-two{
-   flex-direction: column;
-   align-items: center;  
- }
- .img-two{
-   width: 50%;
- }
-.designation-two{
-   padding-left:0px;
-   padding-bottom: 20px;
- }
+
+   .story-content {
+      width: 100%;
+   }
+
+   .story-image {
+      width: 100%;
+   }
+
+   .story-content p {
+      text-align: center;
+   }
+
+   #name-one {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .img {
+      width: 50%;
+   }
+
+   .designation {
+      padding-left: 0px;
+      padding-bottom: 20px;
+   }
+
+   #name-two {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .img-two {
+      width: 50%;
+   }
+
+   .designation-two {
+      padding-left: 0px;
+      padding-bottom: 20px;
+   }
+
+   #reviews-one,
+   #review-part-two {
+      font-size: 15px;
+
+   }
 }
 
 /* Mobile device lowcheck=425*/
 @media screen and (max-width :640px) {
-   .banner-content{
+   .banner-content {
       text-align: center;
    }
-   .btn{
+
+   .btn {
       padding: 12px 20px;
    }
-   .btn-white{
+
+   .btn-white {
       padding: 12px 20px;
    }
+
    .banner-content h1 {
       font-size: 36px;
    }
@@ -92,10 +112,18 @@ border-radius: 30px;
    .heading-contrnt h2 {
       font-size: 32px;
    }
+
    #country-card-container {
-   flex-direction: column;
+      flex-direction: column;
    }
+
    #country-card-container h2 {
-    text-align: center;
- }
+      text-align: center;
+   }
+
+   #footer-writing-part {
+      flex-direction: column;
+      align-items: center;
+
+   }
 }
