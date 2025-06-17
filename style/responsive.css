@@ -61,6 +61,17 @@ border-radius: 30px;
    padding-left:0px;
    padding-bottom: 20px;
  }
+   #name-two{
+   flex-direction: column;
+   align-items: center;  
+ }
+ .img-two{
+   width: 50%;
+ }
+.designation-two{
+   padding-left:0px;
+   padding-bottom: 20px;
+ }
 }
 
 /* Mobile device lowcheck=425*/
