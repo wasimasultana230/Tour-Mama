@@ -101,7 +101,8 @@
  } */
  #service,
  #story,
- #country {
+ #country,
+ #reviews {
     width: 87.5%;
     margin: 0px auto 120px auto;
  }
@@ -169,4 +170,39 @@
     background-color: white;
     padding: 40px;
     border-radius: 30px;
+ }
+#reviews{
+   background-color: #FFFFFF;
+   border-radius: 16px;
+
+}
+ #heading-reviews h4{
+   color: #F411CF;
+    letter-spacing: 4px;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 15px;
+   
+ }
+ #heading-reviews h1{
+    text-align: center;
+    margin-bottom: 30px;
+   
+ }
+
+ #name-one{
+   display:flex;
+   justify-content: space-between;
+   margin-top: 20px;
+   padding-left: 20px;
+   padding-bottom: 20px;
+
+ }
+ #writing-one{
+   padding: 15px;
+   margin-bottom: 40px;
+ }
+ .designation{
+   padding-left: 400px;
+   text-align:center ;
  }
